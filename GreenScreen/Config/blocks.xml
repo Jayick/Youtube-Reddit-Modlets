@@ -1,0 +1,88 @@
+<configs>
+<append xpath="/blocks">
+
+<block name="Green Screen">
+	<property name="Group" value="Building"/>
+	<property name="CustomIcon" value="greenscreen"/>
+	<property name="Material" value="Mwood_weak"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="ImpactSound" value="ting"/>
+	<property name="Model" value="#@modfolder:Resources/Greenscreen.unity3d?GreenscreenPrefab"/>
+	<property name="FilterTags" value="ffurniture"/>
+	<property name="Path" value="solid"/>
+	<property name="StabilitySupport" value="true"/>
+	<property name="Stacknumber" value="500"/>
+	<property name="MaxDamage" value="1"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property class="RepairItems"> <property name="resourceWood" value="1"/> </property>
+	<drop event="Destroy" name="resourceWood" count="1,2"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="1" stick_chance="1"/>
+</block>
+
+<block name="10x10 Green Screen">
+	<property name="Group" value="Building"/>
+	<property name="CustomIcon" value="green"/>
+	<property name="Material" value="Mwood_weak"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="ImpactSound" value="ting"/>
+	<property name="Model" value="#@modfolder:Resources/10Green.unity3d?10GreenPrefab"/>
+	<property name="FilterTags" value="ffurniture"/>
+	<property name="Path" value="solid"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="MultiBlockDim" value="1,10,10"/>
+	<property name="StabilitySupport" value="true"/>
+	<property name="Stacknumber" value="500"/>
+	<property name="MaxDamage" value="1"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property class="RepairItems"> <property name="resourceWood" value="1"/> </property>
+	<drop event="Destroy" name="resourceWood" count="1,2"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="1" stick_chance="1"/>
+</block>
+
+<block name="Pink Screen">
+	<property name="Group" value="Building"/>
+	<property name="CustomIcon" value="pinkscreen"/>
+	<property name="Material" value="Mwood_weak"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="ImpactSound" value="ting"/>
+	<property name="Model" value="#@modfolder:Resources/Pinkscreen.unity3d?PinkscreenPrefab"/>
+	<property name="FilterTags" value="ffurniture"/>
+	<property name="Path" value="solid"/>
+	<property name="StabilitySupport" value="true"/>
+	<property name="Stacknumber" value="500"/>
+	<property name="MaxDamage" value="1"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property class="RepairItems"> <property name="resourceWood" value="1"/> </property>
+	<drop event="Destroy" name="resourceWood" count="1,2"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="1" stick_chance="1"/>
+</block>
+
+<block name="10x10 Pink Screen">
+	<property name="Group" value="Building"/>
+	<property name="CustomIcon" value="pink"/>
+	<property name="Material" value="Mwood_weak"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="ImpactSound" value="ting"/>
+	<property name="Model" value="#@modfolder:Resources/10Pink.unity3d?10PinkPrefab"/>
+	<property name="FilterTags" value="ffurniture"/>
+	<property name="Path" value="solid"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="MultiBlockDim" value="1,10,10"/>
+	<property name="StabilitySupport" value="true"/>
+	<property name="Stacknumber" value="500"/>
+	<property name="MaxDamage" value="1"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property class="RepairItems"> <property name="resourceWood" value="1"/> </property>
+	<drop event="Destroy" name="resourceWood" count="1,2"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="1" stick_chance="1"/>
+</block>
+</append>
+</configs>
