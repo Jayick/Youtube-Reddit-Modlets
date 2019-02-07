@@ -1,0 +1,170 @@
+<configs>
+<append xpath="/blocks">
+
+<block name="JaWoodle Road">
+			<property name="Group" value="Building"/>
+			<property name="DescriptionKey" value="cobblestoneGroupDesc"/>
+			<property name="Material" value="Mcobblestone"/>
+			<property name="CreativeMode" value="Player"/>
+			<property class="RepairItems"> 
+			<property name="resourceCobblestones" value="8"/>
+			</property>
+			<property name="Path" value="solid"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="MultiBlockDim" value="10,1,20"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="CustomIcon" value="jaroad"/>
+			<property name="Model" value="#@modfolder:Resources/JaWoodleRace.unity3d?JaWoodleRoad"/>
+			
+			<property name="EconomicValue" value="14"/>
+			<property name="EconomicBundleSize" value="20"/>
+			<property name="FilterTags" value="fbuilding,fbrick"/>
+			<property name="SortOrder1" value="40b0"/>
+			<property name="SortOrder2" value="0002"/>
+</block>
+
+<block name="JaWoodle Roadup">
+			<property name="Group" value="Building"/>
+			<property name="DescriptionKey" value="cobblestoneGroupDesc"/>
+			<property name="Material" value="Mcobblestone"/>
+			<property name="CreativeMode" value="Player"/>
+			<property class="RepairItems"> 
+			<property name="resourceCobblestones" value="8"/>
+			</property>
+			<property name="Path" value="solid"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="MultiBlockDim" value="5,1,5"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="CustomIcon" value="jaroadup"/>
+			<property name="Model" value="#@modfolder:Resources/JaWoodleRaceUp.unity3d?JaWoodleRoadUp"/>
+			
+			<property name="EconomicValue" value="14"/>
+			<property name="EconomicBundleSize" value="20"/>
+			<property name="FilterTags" value="fbuilding,fbrick"/>
+			<property name="SortOrder1" value="40b0"/>
+			<property name="SortOrder2" value="0002"/>
+</block>
+
+<block name="JaWoodle Roadup2">
+			<property name="Group" value="Building"/>
+			<property name="DescriptionKey" value="cobblestoneGroupDesc"/>
+			<property name="Material" value="Mcobblestone"/>
+			<property name="CreativeMode" value="Player"/>
+			<property class="RepairItems"> 
+			<property name="resourceCobblestones" value="8"/>
+			</property>
+			<property name="Path" value="solid"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="MultiBlockDim" value="5,1,5"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="CustomIcon" value="jaroadup2"/>
+			<property name="Model" value="#@modfolder:Resources/JaWoodleRaceUp2.unity3d?JaWoodleRoadUp2"/>
+			
+			<property name="EconomicValue" value="14"/>
+			<property name="EconomicBundleSize" value="20"/>
+			<property name="FilterTags" value="fbuilding,fbrick"/>
+			<property name="SortOrder1" value="40b0"/>
+			<property name="SortOrder2" value="0002"/>
+</block>
+
+<block name="JaWoodle Roadcorner">
+			<property name="Group" value="Building"/>
+			<property name="DescriptionKey" value="cobblestoneGroupDesc"/>
+			<property name="Material" value="Mcobblestone"/>
+			<property name="CreativeMode" value="Player"/>
+			<property class="RepairItems"> 
+			<property name="resourceCobblestones" value="8"/>
+			</property>
+			<property name="Path" value="solid"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="CustomIcon" value="jaroadturn"/>
+			<property name="Model" value="#@modfolder:Resources/JaWoodleRaceTurn.unity3d?JaWoodleRoadTurn"/>
+			
+			<property name="EconomicValue" value="14"/>
+			<property name="EconomicBundleSize" value="20"/>
+			<property name="FilterTags" value="fbuilding,fbrick"/>
+			<property name="SortOrder1" value="40b0"/>
+			<property name="SortOrder2" value="0002"/>
+</block>
+
+<block name="JaWoodle Roadcorner45">
+			<property name="Group" value="Building"/>
+			<property name="DescriptionKey" value="cobblestoneGroupDesc"/>
+			<property name="Material" value="Mcobblestone"/>
+			<property name="CreativeMode" value="Player"/>
+			<property class="RepairItems"> 
+			<property name="resourceCobblestones" value="8"/>
+			</property>
+			<property name="Path" value="solid"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="CustomIcon" value="jaroadturn45"/>
+			<property name="Model" value="#@modfolder:Resources/JaWoodleRaceTurn45.unity3d?JaWoodleRoadTurn45"/>
+			
+			<property name="EconomicValue" value="14"/>
+			<property name="EconomicBundleSize" value="20"/>
+			<property name="FilterTags" value="fbuilding,fbrick"/>
+			<property name="SortOrder1" value="40b0"/>
+			<property name="SortOrder2" value="0002"/>
+</block>
+<block name="JaWoodle RoadShort">
+			<property name="Group" value="Building"/>
+			<property name="DescriptionKey" value="cobblestoneGroupDesc"/>
+			<property name="Material" value="Mcobblestone"/>
+			<property name="CreativeMode" value="Player"/>
+			<property class="RepairItems"> 
+			<property name="resourceCobblestones" value="8"/>
+			</property>
+			<property name="Path" value="solid"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="MultiBlockDim" value="5,1,5"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="CustomIcon" value="jaroadshort"/>
+			<property name="Model" value="#@modfolder:Resources/JaWoodleRaceShort.unity3d?JaWoodleRoadShort"/>
+			
+			<property name="EconomicValue" value="14"/>
+			<property name="EconomicBundleSize" value="20"/>
+			<property name="FilterTags" value="fbuilding,fbrick"/>
+			<property name="SortOrder1" value="40b0"/>
+			<property name="SortOrder2" value="0002"/>
+</block>
+<block name="JaWoodle RoadShort45">
+			<property name="Group" value="Building"/>
+			<property name="DescriptionKey" value="cobblestoneGroupDesc"/>
+			<property name="Material" value="Mcobblestone"/>
+			<property name="CreativeMode" value="Player"/>
+			<property class="RepairItems"> 
+			<property name="resourceCobblestones" value="8"/>
+			</property>
+			<property name="Path" value="solid"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="MultiBlockDim" value="5,1,5"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="CustomIcon" value="jaroadshort45"/>
+			<property name="Model" value="#@modfolder:Resources/JaWoodleRace45.unity3d?JaWoodleRoadShort45"/>
+			
+			<property name="EconomicValue" value="14"/>
+			<property name="EconomicBundleSize" value="20"/>
+			<property name="FilterTags" value="fbuilding,fbrick"/>
+			<property name="SortOrder1" value="40b0"/>
+			<property name="SortOrder2" value="0002"/>
+</block>
+</append>
+</configs>
