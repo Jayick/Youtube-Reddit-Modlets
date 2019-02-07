@@ -1,0 +1,5 @@
+<configs>
+<remove xpath="/Sounds/SoundDataNode[@name='PlayerLandThump']"/>
+<set xpath="/Sounds/SoundDataNode[@name='player1landSoft']/Noise[@ID='2' and @range='7']/@range">0</set>
+<set xpath="/Sounds/SoundDataNode[@name='player1landHard']/Noise[@ID='3' and @range='14']/@range">0</set>
+</configs>

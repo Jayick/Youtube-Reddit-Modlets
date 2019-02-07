@@ -1,0 +1,5 @@
+<configs>
+<set xpath="/entity_classes/entity_class[@name='animalZombieVulture']/property[@name='SoundAttack' and @value='Animals/Vulture/vultureattack']/@value">divebomb</set>
+</configs>
+
+<!-- #@modfolder:Resources/DiveBomb.unity3d?divebomb -->
