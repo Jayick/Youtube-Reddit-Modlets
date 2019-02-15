@@ -1,0 +1,61 @@
+<configs>
+<append xpath="/blocks">
+<block name="Garden Light">
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="gardenlamp"/>
+			<property name="Model" value="#@modfolder:Resources/yaychairs.unity3d?GardenLampPrefab"/>
+			<property name="Class" value="Light"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="Material" value="Mstone"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="HeatMapStrength" value=".25"/>
+			<property name="HeatMapTime" value="1200"/>
+			<property name="HeatMapFrequency" value="15"/>
+			<property class="RepairItems">
+				<property name="resourceYuccaFibers" value="1"/></property>
+			<drop event="Destroy" name="Garden Lamp" count="1"/>
+			<property name="Group" value="Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="ImposterDontBlock" value="true"/>
+		</block>
+		<block name="Red Recliner">
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="chair1"/>
+			<property name="CanPickup" value="true"/>
+			<property name="Material" value="MwoodReinforced"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Mesh" value="models"/>
+			<property name="Model" value="#@modfolder:Resources/yaychairs.unity3d?Recliner1Prefab"/>
+			<property name="ImposterExchange" value="imposterQuarter" param1="154"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property class="RepairItems">
+				<property name="resourceWood" value="10"/></property>
+			<drop event="Destroy" name="resourceWood" count="1,3"/>
+			<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+			<property name="FilterTags" value="fbuilding,fwood"/>
+		</block>
+		<block name="Black Recliner">
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="chair2"/>
+			<property name="CanPickup" value="true"/>
+			<property name="Material" value="MwoodReinforced"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Mesh" value="models"/>
+			<property name="Model" value="#@modfolder:Resources/yaychairs.unity3d?Recliner2Prefab"/>
+			<property name="ImposterExchange" value="imposterQuarter" param1="154"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property class="RepairItems">
+				<property name="resourceWood" value="10"/></property>
+			<drop event="Destroy" name="resourceWood" count="1,3"/>
+			<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+			<property name="FilterTags" value="fbuilding,fwood"/>
+		</block>
+</append>
+</configs>

@@ -1,0 +1,22 @@
+<configs>
+<append xpath="/recipes">
+
+<recipe name="Red Recliner" count="1">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceLeather" count="10"/>
+</recipe>
+<recipe name="Black Recliner" count="1">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceLeather" count="10"/>
+</recipe>
+<recipe name="Garden Light" count="1">
+	<ingredient name="resourceRockSmall" count="50"/>
+	<ingredient name="resourceAnimalFat" count="10"/>
+</recipe>
+
+<recipe name="Pink Lightsaber" count="1" craft_time="600" >
+	<ingredient name="resourceForgedSteel" count="50"/>
+</recipe>
+
+</append>
+</configs>
